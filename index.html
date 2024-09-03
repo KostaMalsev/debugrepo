@@ -1,18 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug Repo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #out {
+            display: block;
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #333;
+        }
+    </style>
+</head>
 <body>
 
 <a id="out"> </a>
 
 <script>
 
-let out= document.querySelector("#out");
+let out = document.querySelector("#out");
 
-function lout(str)
-{
-	out.innerHTML += str;
+function lout(str) {
+    out.innerHTML += str;
 }
-let a= [1,2,3]
-lout("my result="+ a.toString());
+let a = [1, 2, 3];
+lout("my result = " + a.toString());
 
 </script>
 
 </body>
+</html>
